@@ -25,7 +25,7 @@ const PrimaryButton = () => {
                   color: '#fff',
                 },
               ]}>
-              SIGN U
+              SIGN UP
             </Text>
           </View>
         </TouchableOpacity>
