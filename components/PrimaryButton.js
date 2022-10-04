@@ -3,8 +3,8 @@ import {View} from 'react-native-animatable';
 import {
   Text,
   Button,
-  TouchableOpacity,
   Dimensions,
+  TouchableOpacity
   TextInput,
   Platform,
   Image,
