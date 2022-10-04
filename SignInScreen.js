@@ -95,7 +95,7 @@ const SignInScreen = () => {
                 marginTop: 35,
               },
             ]}>
-            mobile number
+            Mobile number
           </Text>
           <View style={styles.action}>
             <TextInput
@@ -140,7 +140,7 @@ const SignInScreen = () => {
             />
           </View>
           <View style={styles.button}>
-            <TouchableOpacity style={styles.signIn} onPress={() => {}}>
+            <TouchableOpacity style={styles.container}>
               <LinearGradient
                 colors={['#00C100', '#01ab9d']}
                 style={styles.signIn}>
@@ -171,6 +171,7 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-end',
     paddingHorizontal: 20,
     paddingBottom: 50,
+    backgroundColor: '#F7F7F7',
   },
   wrapper: {
     margin: 16,
@@ -204,7 +205,6 @@ const styles = StyleSheet.create({
   textInput: {
     flex: 1,
     paddingLeft: 10,
-    color: '#FFFFFF',
     borderColor: '#D3D3D3',
     borderWidth: 1,
     borderRadius: 25,
